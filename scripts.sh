@@ -7,11 +7,12 @@ declare -A HUB
 HUB=(
     ["$TEMPERATURE_TITLE"]="$SCRIPT_DIR/color_temperature.sh"
     ["$RESTART_TITLE"]="$SCRIPT_DIR/restart_service.sh"
+    ["$CLIPBOARD_TITLE"]="$SCRIPT_DIR/clipboard_history.sh"
 )
 
 LIST=$(printf "%s\n" "${!HUB[@]}" | sort)
 
-CHOICE=$(echo -e "$LIST" | rofi -dmenu -i -p "scripts" -no-custom)
+CHOICE=$(echo -e "$LIST" | rofi -dmenu -i -p "scripts" -no-custom -matching fuzzy)
 
 if [[ -n "$CHOICE" ]]; then
     SCRIPT_PATH="${HUB[$CHOICE]}"
