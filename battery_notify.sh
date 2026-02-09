@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#
+# battery_notify.sh - polls the battery and sends a notification if capacity is low
+# deps: notify-send
 
 THRESHOLD=20
 CHECK_INTERVAL=60

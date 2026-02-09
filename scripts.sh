@@ -1,4 +1,13 @@
 #!/usr/bin/env bash
+#
+# (\ /)
+# ( . .)   scripts.sh - rofi hub for launching scripts
+# c(")(")
+#
+# deps:
+# * global: rofi, notify-send, nerd font
+# * color temperature: wlsunset
+# * clipboard history: wl-clipboard, cliphist
 
 source "$HOME/scripts/.env"
 SCRIPT_DIR="$HOME/scripts"
