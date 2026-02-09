@@ -4,11 +4,11 @@ source "$HOME/scripts/.env"
 
 declare -A TEMPS
 TEMPS=(
-    ["  Daylight (6500K)"]="6500"
-    ["  Office (5000K)"]="5000"
-    ["  Golden Hour (4500K)"]="4500"
-    ["  Evening (3500K)"]="3500"
-    ["󰽢  Night (2500K)"]="2500"
+    [" Daylight (6500K)"]="6500"
+    [" Office (5000K)"]="5000"
+    [" Golden Hour (4500K)"]="4500"
+    [" Evening (3500K)"]="3500"
+    ["󰽢 Night (2500K)"]="2500"
 )
 
 LIST=$(for key in "${!TEMPS[@]}"; do

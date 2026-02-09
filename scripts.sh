@@ -12,7 +12,7 @@ HUB=(
 
 LIST=$(printf "%s\n" "${!HUB[@]}" | sort)
 
-CHOICE=$(echo -e "$LIST" | rofi -dmenu -i -p "scripts" -no-custom -matching fuzzy)
+CHOICE=$(echo -e "$LIST" | rofi -dmenu -i -p "$SCRIPTS_ICON scripts" -l "${#HUB[@]}" -no-custom -matching fuzzy)
 
 if [[ -n "$CHOICE" ]]; then
     SCRIPT_PATH="${HUB[$CHOICE]}"
