@@ -6,7 +6,8 @@ shell scripts i use in my day-to-day workflow. they are written on a machine run
 &emsp;&emsp;**🌞 color temperature** - changes the display's color temperature to a selected preset \
 &emsp;&emsp;**📋 clipboard history** - opens a list of clipboard history, copying the selected item \
 **🪫 battery notification** - polls the battery and sends a notification if capacity is low \
-**📄 markdown preview** - launches an instant preview of a markdown file in zathura
+**📄 markdown preview** - launches an instant preview of a markdown file in zathura \
+📑 [**`notes.sh`**](https://github.com/mellowcoffee/scripts/blob/main/notes/readme.md) - a script for managing markdown notes
 
 #### dependencies
 
@@ -18,7 +19,7 @@ shell scripts i use in my day-to-day workflow. they are written on a machine run
 
 #### usage
 
-usage on hyprland
+this segment assumes you use hyprland, but similar configuration is achievable on basically any window manager
 
 clone the repo:
 ```sh
