@@ -17,6 +17,7 @@ HUB=(
     ["$TEMPERATURE_TITLE"]="$SCRIPT_DIR/color_temperature.sh"
     ["$RESTART_TITLE"]="$SCRIPT_DIR/restart_service.sh"
     ["$CLIPBOARD_TITLE"]="$SCRIPT_DIR/clipboard_history.sh"
+    ["$EXIT_TITLE"]="$SCRIPT_DIR/exit_hyprland.sh"
 )
 
 LIST=$(printf "%s\n" "${!HUB[@]}" | sort)
