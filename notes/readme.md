@@ -1,12 +1,6 @@
-```
+### notes.sh
 
-              __        
-   ___  ___  / /____ ___
-  / _ \/ _ \/ __/ -_|_-<
- /_//_/\___/\__/\__/___/.sh
- a script for managing markdown notes
-
-```
+a script for managing markdown notes
 
 #### features
 
