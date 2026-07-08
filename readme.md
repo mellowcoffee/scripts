@@ -2,12 +2,13 @@
 
 shell scripts i use in my day-to-day workflow. they are written on a machine running arch and hyprland, keep that in mind when running elsewhere.
 
-- 📜 `scripts.sh`: script launcher
-- &emsp;&emsp;🌞 color temperature: changes the display's color temperature to a selected preset
-- &emsp;&emsp;📋 clipboard history: opens a list of clipboard history, copying the selected item
-- 🪫 battery notification: polls the battery and sends a notification if capacity is low
-- 📄 markdown preview: launches an instant preview of a markdown file in zathura
-- 📑 [`notes.sh`](https://github.com/mellowcoffee/scripts/blob/main/notes/readme.md): a script for managing markdown notes
+- `scripts.sh`: script launcher
+  - color temperature: changes the display's color temperature to a selected preset
+  - clipboard history: opens a list of clipboard history, copying the selected item
+  - restart service: restarts services like waybar, dunst or hyprpaper
+- battery notification: polls the battery and sends a notification if capacity is low
+- [`notes.sh`](https://github.com/mellowcoffee/scripts/blob/main/notes/readme.md): a script for managing markdown notes
+- backup: backs up files and directories
 
 #### usage
 
