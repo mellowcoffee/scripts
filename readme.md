@@ -1,4 +1,4 @@
-### 🐚 scripts
+## 🐚 scripts
 
 shell scripts i use in my day-to-day workflow. they are written on a machine running arch and hyprland, keep that in mind when running elsewhere.
 
@@ -10,7 +10,7 @@ shell scripts i use in my day-to-day workflow. they are written on a machine run
 - [`notes.sh`](https://github.com/mellowcoffee/scripts/blob/main/notes/readme.md): a script for managing markdown notes
 - backup: backs up files and directories
 
-#### usage
+### usage
 
 this segment assumes you use hyprland, but similar configuration is achievable on basically any window manager
 
@@ -29,12 +29,7 @@ run `battery_notify.sh` on startup:
 exec-once = ~/scripts/battery_notify.sh
 ```
 
-add an alias to `preview_markdown.sh`:
-```zsh
-alias mdp="~/scripts/preview_markdown.sh"
-```
-
-#### customization
+### customization
 
 `dmenu`, or another compatible alternative may be used instead of `rofi` by just replacing every instance of `rofi -dmenu` within the scripts
 
@@ -52,3 +47,6 @@ SERVICES=(
 # ...
 ```
 
+### notes
+
+a dotfile repo that uses these shell scripts may be found [🧿 here](https://github.com/mellowcoffee/dots)

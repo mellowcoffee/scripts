@@ -4,10 +4,7 @@
 # |__ --|  __|   _||  ||  _  ||   _|__ --|__|__ --||     |
 # |_____|____|__|  |__||   __||____|_____|__|_____||__|__|
 #         rofi hub for |__| launching scripts             
-# deps:
-# * global: rofi, notify-send, nerd font
-# * color temperature: wlsunset
-# * clipboard history: wl-clipboard, cliphist
+# deps: rofi, notify-send, nerd font
 
 source "$HOME/scripts/.env"
 SCRIPT_DIR="$HOME/scripts"

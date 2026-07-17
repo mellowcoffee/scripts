@@ -1,8 +1,8 @@
-### notes.sh
+## notes.sh
 
 a script for managing markdown notes
 
-#### features
+### features
 
 *tag-based browsing:* tags may be defined inline, or in frontmatter
 
@@ -16,11 +16,11 @@ Three tags have been defined in the frontmatter, here is another: #another
 
 these tags may then be searched through the script, displaying all notes tagged with a given word
 
-#### dependencies
+### dependencies
 
 `rofi`, `rg`, `fd`
 
-#### configuration & usage
+### configuration & usage
 
 ```sh
 git clone https://github.com/mellowcoffee/scripts ~/scripts
