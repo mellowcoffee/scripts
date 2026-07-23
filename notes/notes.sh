@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
-#              __        
-#   ___  ___  / /____ ___
-#  / _ \/ _ \/ __/ -_|_-<
-# /_//_/\___/\__/\__/___/.sh
-# a script for managing markdown notes
-# 
-# dependencies: rofi, ripgrep, fd
+# notes.sh - a script for managing markdown notes
+# deps: rofi, ripgrep, fd
 
 terminal="foot"
 editor="nvim"

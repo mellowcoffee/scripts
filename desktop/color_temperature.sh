@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#
 # color_temperature.sh - toggles the screen's temperature
 # deps: hyprsunset, rofi
 

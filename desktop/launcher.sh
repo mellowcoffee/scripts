@@ -1,13 +1,9 @@
 #!/usr/bin/env bash
-#                   __         __                   __    
-# .-----.----.----.|__|.-----.|  |_.-----.  .-----.|  |--.
-# |__ --|  __|   _||  ||  _  ||   _|__ --|__|__ --||     |
-# |_____|____|__|  |__||   __||____|_____|__|_____||__|__|
-#         rofi hub for |__| launching scripts             
+# launcher.sh - rofi hub for launching scripts
 # deps: rofi, notify-send, nerd font
 
-source "$HOME/scripts/.env"
-SCRIPT_DIR="$HOME/scripts"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$SCRIPT_DIR/.env"
 
 declare -A HUB
 HUB=(

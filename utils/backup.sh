@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# backup.sh
+# backup.sh - creates timestamped backups of files and directories
 
 red='\033[0;31m'
 green='\033[0;32m'
