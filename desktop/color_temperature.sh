@@ -21,9 +21,7 @@ CHOICE=$(echo -e "$LIST" | rofi -dmenu -i -p "$TEMPERATURE_ICON temp" -no-custom
 
 if [[ -n "$CHOICE" ]]; then
     VALUE=${TEMPS[$CHOICE]}
-    # pkill wlsunset
-    # wlsunset -t "$VALUE" &
-    pkill hyprsunset
-    hyprsunset -t "$VALUE" &
+    pkill wlsunset
+    wlsunset -t "$VALUE" -T "$((VALUE + 1))" &
     notify-send "$SCRIPTS_TITLE" "$TEMPERATURE_ICON  Temperature set to ${VALUE}K" -a "$TEMPERATURE_NAME"
 fi
